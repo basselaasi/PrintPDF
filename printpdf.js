@@ -8,7 +8,6 @@ const filePath = "C:\\test\\computer.pdf";
 pdfToPrinter
   .print(filePath, {
     // Specify the printer name. Here, it's set to "Microsoft Print To PDF".
-    // Replace this with the actual printer name you intend to use.
     printer: "Microsoft Print To PDF",
 
     // The win32 option allows passing command-line arguments for print settings on Windows.
